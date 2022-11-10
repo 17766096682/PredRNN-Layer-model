@@ -29,7 +29,7 @@ def configs():
     parser.add_argument('--filter_size', type=int, default=(5, 5))
     parser.add_argument('--stride', type=int, default=1)
     parser.add_argument('--tau', type=int, default=5)
-    parser.add_argument('--layer_norm',type=bool,default=True)
+    parser.add_argument('--layer_norm',type=bool,default=False)
     parser.add_argument('--cell_mode', type=str, default='normal')
     parser.add_argument('--model_mode', type=str, default='normal')
     parser.add_argument('--lr', type=float, default=1e-3)
